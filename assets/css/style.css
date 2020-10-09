@@ -1,0 +1,57 @@
+/* index.html */
+.navbar {
+    background-color: #27272b;
+}
+
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.container {
+    background-color: #FBEFF3;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.header-col-12 {
+    background-color: hotpink;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+#main-bio {
+    float: center;
+}
+
+#uyen-image {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    background-color: grey;
+}
+
+/* porfolio.html */
+
+/* contact.html */
+
+#contact {
+
+}
