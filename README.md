@@ -1,4 +1,4 @@
-* Link: 
+# Link: 
  https://uyennguyen30696.github.io/hw2-responsive-porfolio/
 
 The purpose of this homework is to create a responsive porfolio with Bootstrap. The items developed are: 
@@ -8,7 +8,7 @@ The purpose of this homework is to create a responsive porfolio with Bootstrap. 
     <li>Responsive iamges</li>
 </ul>
 
-* Content:
+# Content:
 Three html files
 <ul>
     <li>The index.html file includes a profile picture and a brief bio.</li>
