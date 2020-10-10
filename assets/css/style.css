@@ -1,26 +1,32 @@
 /* index.html */
+body {
+    background-color: grey !important;
+}
+
 .navbar {
     background-color: #27272b;
 }
 
 .navbar-brand {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #F26989 !important;
 }
+
 
 .nav-link {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #F26989 !important;
 }
 
 .container {
     background-color: #FBEFF3;
+    margin: 0 cover !important;
     margin-top: 50px;
     padding-top: 20px;
 }
 
 .header-col-12 {
-    background-color: hotpink;
+    background-color: #F26989;
     margin-bottom: 20px;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -44,14 +50,15 @@ h3 {
     height: 300px;
 }
 
-body {
-    background-color: grey;
+p {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* porfolio.html */
 
 /* contact.html */
-
+ 
 #contact {
 
-}
+} 
