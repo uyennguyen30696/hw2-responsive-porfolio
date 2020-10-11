@@ -1,7 +1,6 @@
 /* index.html */
-body {
-    background-color: grey !important;
-}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .navbar {
     background-color: #27272b;
@@ -19,14 +18,15 @@ body {
 }
 
 .container {
-    background-color: #FBEFF3;
+    background-image: linear-gradient(to bottom right, #F093A1, #FDEDF0);
     margin: 0 cover !important;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 20px;
+    box-shadow: 10px 10px 18px #888888;
 }
 
-.header-col-12 {
-    background-color: #F26989;
+.header {
+    background-color: #27272b;
     margin-bottom: 20px;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -34,28 +34,74 @@ body {
 }
 
 h3 {
-    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    color:  #F26989 !important;
 }
 
-#main-bio {
-    float: center;
+.main-bio {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#bio {
+    font-size: 17px;
+    line-height: 2em;
+}
+
+#welcome {
+    line-height: 3em;
 }
 
 #uyen-image {
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 300px;
     height: 300px;
 }
 
 p {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 30px;
 }
 
+footer {
+    background-color: #27272b;
+    height: 55px;
+}
+
+.contact {
+    padding: 13px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 /* porfolio.html */
+
+#anime-collection-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#anime-collection {
+    font-size: 30px;
+    text-align: center;
+}
+
+.anime-image {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* contact.html */
  
