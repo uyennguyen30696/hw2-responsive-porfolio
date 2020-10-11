@@ -1,6 +1,3 @@
-## Link: 
- https://uyennguyen30696.github.io/hw2-responsive-porfolio/
-
 The purpose of this homework is to create a responsive porfolio with Bootstrap. The items developed are: 
 <ul>
     <li>A navbar</li>
@@ -8,9 +5,12 @@ The purpose of this homework is to create a responsive porfolio with Bootstrap. 
     <li>Responsive iamges</li>
 </ul>
 
+## Link: 
+ https://uyennguyen30696.github.io/hw2-responsive-porfolio/
+
 ## Content:
 Three html files
 <ul>
-    <li>The index.html file includes a profile picture and a brief bio.</li>
+    <li>The index.html file includes a profile picture and a brief bio. The footer includes responsive icons of my email, Github, and LinkedIn.</li>
     <li>The porfolio.html file includes images.</li>
-    <li>The contact.html file includes my email, links to my Github and Linkedin</li>
+    <li>The contact.html file includes a contact form</li>
