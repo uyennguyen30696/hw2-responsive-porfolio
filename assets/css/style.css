@@ -94,11 +94,13 @@ footer {
 #anime-collection {
     font-size: 30px;
     text-align: center;
+    font-family: monospace;
 }
 
 .anime-image {
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
