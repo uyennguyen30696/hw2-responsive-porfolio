@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
@@ -29,6 +30,42 @@
           </ul>
         </div>
     </nav>
+    
+    <!-- From w3schools.com (modified) -->
+    <div class="container-contact-box">
+
+      <div class="contact-title">
+        <p>Contact</p>
+      </div>
+
+      <div class="contact-box">
+        <form action="action_page.php">
+
+        <div class="fname">
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" id="fname-input" name="firstname" placeholder="Your name...">
+        </div>
+
+        <div class="lname">
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" id="lname-input" name="lastname" placeholder="Your last name...">
+        </div>
+
+        <div class="message">
+        <label for="message">Message</label>
+        <br>
+        <textarea id="message" name="message-input" placeholder="Message..."style="height:200px"></textarea>
+        </div>
+
+        <div>
+        <input type="submit" value="Submit">
+        </div>
+      </div>
+
+      </form>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

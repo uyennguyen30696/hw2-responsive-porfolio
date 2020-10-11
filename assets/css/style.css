@@ -104,7 +104,51 @@ footer {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* contact.html */
- 
-#contact {
+body {
+    background-color: #FFF5EB !important;
+}
 
+.container-contact-box {
+    border: solid;
+    margin: 50px auto;
+    width: 50%;
+    padding: 30px 80px;
+    text-align: center;
 } 
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #F26989
+}
+
+.contact-box {
+    
+}
+
+.fname {
+    margin-bottom: 20px;
+}
+
+#fname-input {
+    
+}
+
+.lname {
+    margin-bottom: 20px;
+}
+
+#lname-input {
+    
+}
+
+.message {
+    margin-left: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#message {
+
+}
