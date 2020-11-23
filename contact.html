@@ -1,77 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Contact</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">UYEN NGUYEN</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="porfolio.html">Porfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    
-    <!-- From w3schools.com (modified) -->
-    <div class="container-contact-box">
+<body class="body-contact">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">UYEN NGUYEN</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="contact-title">
-        <p>Contact</p>
+  <section class="connect-with-me-wrapper">
+    <h2>Connect with me</h2>
+    <div class="connect-with-me row">
+      <div class="icon col-6">
+        <a href="https://github.com/uyennguyen30696" target="_blank"><img id="github"
+            src="./images/github_logo.png"></a>
       </div>
 
-      <div class="contact-box">
-        <form action="action_page.php">
+      <div class="icon col-6">
+        <a href="https://www.linkedin.com/in/uyen-nguyen-85584a16b/" target="_blank"><img id="linkedin"
+            src="./images/linkedin_logo.jpg"></a>
+      </div>
+    </div>
+    <br>
+    <hr class="hr">
+  </section>
+
+  <section class="container-contact-box">
+
+    <div class="contact-title">
+      <h2>Keep in touch</h2>
+    </div>
+
+    <div class="contact-box">
+      <!-- <form action="action_page.php"> -->
+      <form action="mailto: udnguyen@ucsd.edu">
 
         <div class="fname">
-        <label for="fname">First Name</label>
-        <br>
-        <input type="text" id="fname-input" name="firstname" placeholder="Your name...">
+          <label for="fname">First Name</label>
+          <br>
+          <input type="text" id="fname-input" name="firstname" placeholder="First name...">
         </div>
 
         <div class="lname">
-        <label for="lname">Last Name</label>
-        <br>
-        <input type="text" id="lname-input" name="lastname" placeholder="Your last name...">
+          <label for="lname">Last Name</label>
+          <br>
+          <input type="text" id="lname-input" name="lastname" placeholder="Last name...">
+        </div>
+
+        <div class="user-email">
+          <label for="email">Your email</label>
+          <br>
+          <input type="text" id="email-input" name="email" placeholder="Your email...">
+        </div>
+
+        <div class="subject">
+          <label for="subject">Message subject</label>
+          <br>
+          <input type="text" id="subject-input" name="subject" placeholder="Message subject...">
         </div>
 
         <div class="message">
-        <label for="message">Message</label>
-        <br>
-        <textarea id="message" name="message-input" placeholder="Message..."style="height:200px"></textarea>
+          <label for="message">Message</label>
+          <br>
+          <textarea id="message" name="message-input" placeholder="Message..." style="height:200px"></textarea>
         </div>
 
         <div>
-        <input type="button" id="submit" value="Submit">
+          <!-- <input type="button" id="submit" value="Submit"> -->
+          <button id="submit" value="submit">Send</button>
         </div>
-      </div>
-
-      </form>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </form>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
