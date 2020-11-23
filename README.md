@@ -2,7 +2,7 @@ The purpose of this homework is to create a responsive porfolio with HTML, CSS, 
 <ul>
     <li>A navbar</li>
     <li>A responsive layout</li>
-    <li>Responsive iamges</li>
+    <li>Responsive images</li>
 </ul>
 
 ## Link: 

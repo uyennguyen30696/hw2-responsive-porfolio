@@ -10,7 +10,7 @@ function transitionPage() {
 
     $("#workday").toggle("slide", {direction: "left"}, 500);
     $("#workday").toggle("slide", {direction: "right"}, 500);
-}
+} 
 
 $(document).ready(function() {
     $("#project-01").click(transitionPage);
