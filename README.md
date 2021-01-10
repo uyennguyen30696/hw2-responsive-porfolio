@@ -8,7 +8,7 @@ The purpose of this homework is to create a responsive porfolio with HTML, CSS, 
 </ul>
 
 ## Link: 
-[Visit my portfolio](https://uyennguyen30696.github.io/hw2-responsive-portfolio/)
+[Visit my portfolio](https://uyennguyen30696.github.io/responsive-portfolio/)
 
 ## Content:
 Three html files
