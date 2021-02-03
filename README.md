@@ -1,8 +1,8 @@
 # 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-The purpose of this homework is to create a responsive porfolio with HTML, CSS, Bootstrap, and Javascript. The items developed are: 
+This responsive porfolio is created with HTML, CSS, and Bootstrap. The items developed are: 
 <ul>
-    <li>A navbar</li>
+    <li>A navbar with my resume attached</li>
     <li>A responsive layout</li>
     <li>Responsive images</li>
 </ul>
@@ -14,7 +14,7 @@ The purpose of this homework is to create a responsive porfolio with HTML, CSS, 
 Three html files
 <ul>
     <li>The index.html file includes a profile picture and a brief bio.</li>
-    <li>The porfolio.html file includes my projects. When the project pictures are clicked, my Github repo of the corresponding project will be shown in a different browswer.</li>
+    <li>The porfolio.html file includes my projects (front end and full stack). The deployed links and source code are available with each project display.</li>
     <li>The contact.html file includes links to my Github, LinkedIn, and a contact form.</li>
 </ul>
 
