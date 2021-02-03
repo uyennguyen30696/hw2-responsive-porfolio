@@ -32,9 +32,9 @@ img {
 
 .card {
     border: solid;
-    margin: 15px;
+    margin: 20px;
     box-shadow: 7px 7px 15px #888888;
-    width: 190px;
+    width: 270px;
 }
 
 .card:hover {
@@ -46,24 +46,9 @@ img {
 }
 
 .img-project {
-    width: 180px;
-    height: 100px;
+    height: 150px;
 }
 
 .link {
-    font-size: 0.7em;
-}
-
-@media (min-width: 1200px) {
-    .card {
-        border: solid;
-        margin: 20px;
-        box-shadow: 7px 7px 15px #888888;
-        width: 250px;
-    }
-
-    .img-project {
-        width: 240px;
-        height: 150px;
-    }
+    font-size: 0.8em;
 }
