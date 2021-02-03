@@ -7,34 +7,22 @@
 }
 
 .carousel-item {
-    padding: 100px;
+    padding: 50px;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-shadow: 4px 4px black;
 }
 
+h5 {
+    color: #9D0208;
+}
+
 .carousel-item {
     padding-top: 30px !important;
-}
-
-.project {
-    position: relative;
-    /* margin-top: 1%; */
-    margin-left: 25%;
-    box-shadow: 10px 10px 18px #888888;
-    width: 50%;
-    height: 30%;
-    padding: 40px;
-}
-
-.project:hover {
-    width: 60%;
-    height: 40%;
-    margin-left: 20%;
 }
 
 img {
@@ -42,21 +30,40 @@ img {
     height: 100%;
 }
 
-@media (max-width: 850px) {
-    .carousel-item {
-        padding: 50px;
+.card {
+    border: solid;
+    margin: 15px;
+    box-shadow: 7px 7px 15px #888888;
+    width: 190px;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+.card-head {
+    padding: 3px;
+}
+
+.img-project {
+    width: 180px;
+    height: 100px;
+}
+
+.link {
+    font-size: 0.7em;
+}
+
+@media (min-width: 1200px) {
+    .card {
+        border: solid;
+        margin: 20px;
+        box-shadow: 7px 7px 15px #888888;
+        width: 250px;
     }
-    .project {
-        position: relative;
-        margin-left: 15%;
-        box-shadow: 10px 10px 18px #888888;
-        width: 70%;
-        height: 50%;
-        padding: 20px;
-    }
-    .project:hover {
-        width: 80%;
-        height: 60%;
-        margin-left: 10%;
+
+    .img-project {
+        width: 240px;
+        height: 150px;
     }
 }
