@@ -125,11 +125,6 @@
     padding-right: 50px;
 }
 
-#submit:hover {
-    width: 170px;
-    height: 80px;
-    font-size: 23px;
-}
 
 @media (max-width: 650px) {
     .connect-with-me-wrapper {
