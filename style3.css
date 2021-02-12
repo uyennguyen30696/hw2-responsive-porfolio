@@ -2,8 +2,6 @@
     background-image: url(./images/IMG_5871.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    /* backdrop-filter: blur(4px); 
-    padding-bottom: 100px; */
 }
 
 .connect-with-me-wrapper {
@@ -34,7 +32,6 @@
 }
 
 .container-contact-box {
-    /* border: solid; */
     margin: 50px auto;
     width: 60%;
     padding: 30px 0;
@@ -124,7 +121,6 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-
 
 @media (max-width: 650px) {
     .connect-with-me-wrapper {

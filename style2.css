@@ -8,6 +8,7 @@
 
 .carousel-item {
     padding: 50px;
+    padding-top: 30px !important;
 }
 
 h1, h3 {
@@ -19,10 +20,6 @@ h1, h3 {
 
 h5 {
     color: #9D0208;
-}
-
-.carousel-item {
-    padding-top: 30px !important;
 }
 
 img {
@@ -51,4 +48,11 @@ img {
 
 .link {
     font-size: 0.8em;
+}
+
+@media (min-width: 1000px) {
+    .project {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
