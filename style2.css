@@ -6,6 +6,11 @@
     padding-bottom: 250px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    top: 300px;
+}
+
 .carousel-item {
     padding: 50px;
     padding-top: 30px !important;
@@ -32,6 +37,7 @@ img {
     margin: 20px;
     box-shadow: 7px 7px 15px #888888;
     width: 270px;
+    height: 440px;
 }
 
 .card:hover {
