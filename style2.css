@@ -37,7 +37,7 @@ img {
     margin: 20px;
     box-shadow: 7px 7px 15px #888888;
     width: 270px;
-    height: 440px;
+    height: 470px;
 }
 
 .card:hover {
@@ -66,6 +66,5 @@ img {
 @media (min-width: 700px) {
     .card {
         width: 320px;
-        height: 470px;
     }
 }
