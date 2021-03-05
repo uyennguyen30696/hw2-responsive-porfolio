@@ -12,11 +12,10 @@
 }
 
 .carousel-item {
-    padding: 50px;
-    padding-top: 30px !important;
+    padding-bottom: 50px;
 }
 
-h1, h3 {
+h2, h4 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -61,10 +60,16 @@ img {
         padding-left: 60px;
         padding-right: 60px;
     }
-}
-
-@media (min-width: 700px) {
+} 
+@media (min-width: 780px) {
     .card {
         width: 320px;
+        height: 460px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        position: absolute;
+        top: 300px;
+        width: 90px !important;
+        height: 90px !important;
     }
 }
