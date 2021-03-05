@@ -37,6 +37,7 @@
     padding: 30px 0;
     text-align: center;
     backdrop-filter: blur(6px);
+    background-color: rgba(0,0,0,0.30);
     box-shadow: 10px 10px 18px #888888;
 }
 

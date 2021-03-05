@@ -62,3 +62,10 @@ img {
         padding-right: 60px;
     }
 }
+
+@media (min-width: 700px) {
+    .card {
+        width: 320px;
+        height: 470px;
+    }
+}

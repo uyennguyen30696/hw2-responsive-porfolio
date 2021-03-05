@@ -37,10 +37,11 @@
 .container {
     margin: 0 cover !important;
     margin-top: 20px;
+    margin-bottom: 50px;
     padding-top: 20px;
     box-shadow: 10px 10px 18px #888888;
-    background-color: transparent;
     backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.40);
 }
 
 .main-bio {
@@ -49,7 +50,7 @@
 }
 
 #bio {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 2em;
 }
 
