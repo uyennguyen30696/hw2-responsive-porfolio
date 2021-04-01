@@ -1,5 +1,7 @@
 # 02 CSS and Bootstrap Homework: Responsive Portfolio
 
+* A new version of my portfolio is built with React and can be found [here](https://github.com/uyennguyen30696/portfolio-react).
+
 This responsive porfolio is created with HTML, CSS, and Bootstrap. The items developed are: 
 <ul>
     <li>A navbar with my resume attached</li>
@@ -17,6 +19,3 @@ Three html files
     <li>The porfolio.html file includes my projects (front end and full stack). The deployed links and source code are available with each project display.</li>
     <li>The contact.html file includes links to my Github, LinkedIn, and a contact form.</li>
 </ul>
-
-## Note:
-This personal page is not complete, and will be updated along with my study progress.
